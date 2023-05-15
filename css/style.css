@@ -1,25 +1,24 @@
-hhtml {
-  box-sizing: border-box;
+html {
+	box-sizing: border-box;
 }
 
 *,
 *::before,
 *::after {
-  box-sizing: inherit;
+	box-sizing: inherit;
 }
 
 a {
-  color:inherit;
-  text-decoration: none;
+	color: inherit;
+	text-decoration: none;
 }
 
 img {
-  max-width: 100%;
-  margin: 0 0 40px;
+	max-width: 100%;
 }
 
 body {
-  font-family: 'font', sans-serif;
+	font-family: 'font', sans-serif;
 }
 
 h1 {
@@ -36,12 +35,7 @@ h3 {
 
 ul {
   margin: 0;
-  display: inline-block;
   padding-left: 15px;
-}
-
-ul:not(:last-child) {
-  margin: 0 2em 1em 0;
 }
 
 li:not(:last-child) {
@@ -107,6 +101,6 @@ figure {
   width: 872px;
 }
 
-figure img{
-  margin: 0 auto;
+.img-mb-40{
+  margin-bottom: 40px;
 }
