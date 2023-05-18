@@ -45,37 +45,6 @@ body {
   line-height: 34px;
 }
 
-.slogan {
-  padding: 50px 95px;
-  border-radius: 20px;
-  font-weight: 700;
-  color: #fff;
-  background-color: #3f2aff;
-}
-
-.list {
-  margin: 0;
-  padding-left: 15px;
-}
-
-.items {
-  font-size: 20px;
-  text-align: left;
-  color: #3f2aff;
-}
-
-.items a {
-  border-bottom: 1px solid #3f2aff;
-}
-
-.items::marker {
-  color: #3f2aff;
-}
-
-.items:not(:last-child) {
-  margin: 0 0 20px;
-}
-
 .main-content {
     display: flex;
     flex-direction: column;
@@ -138,26 +107,42 @@ body {
   background-position: right center;
 }
 
-.grey-subject {
-  text-align: left;
-}
-
 .grey:not(:last-child) {
   margin: 0 0 40px;
-
 }
 
 .grey-text {
   width: 692px;
   margin: 0 0 10px;
+}
+
+.list {
+  margin: 0;
+  padding-left: 15px;
+}
+
+.items {
+  font-size: 20px;
   text-align: left;
+  color: #3f2aff;
+}
+
+.items a {
+  border-bottom: 1px solid #3f2aff;
+}
+
+.items::marker {
+  color: #3f2aff;
+}
+
+.items:not(:last-child) {
+  margin: 0 0 20px;
 }
 
 .picture {
   background-image: url("../img/decorate-1.png");
   background-size: 25%;
   background-repeat: no-repeat;
-  text-align: center;
   color: #3f2aff;
 }
 
@@ -165,7 +150,6 @@ body {
   background-image: url("../img/decorate-2.png");
   background-size: 25%;
   background-repeat: no-repeat;
-  text-align: center;
   color: #3f2aff;
 }
 
@@ -181,7 +165,6 @@ body {
   border-bottom: 1px solid #b6b6b6;
   border-left: 1px solid #b6b6b6;
   border-right: 1px solid #b6b6b6;
-  text-align: center;
   font-size: 14px;
   font-weight: 400;
 }
@@ -190,4 +173,12 @@ body {
   margin-bottom: 40px;
 }
 
-
+.slogan {
+  border-radius: 20px;
+  padding: 50px 95px;
+  width: 100%;
+  font-weight: 700;
+  font-size: 30px;
+  color: #fff;
+  background-color: #3f2aff;
+}
