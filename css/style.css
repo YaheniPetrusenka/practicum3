@@ -182,3 +182,132 @@ body {
   color: #fff;
   background-color: #3f2aff;
 }
+
+.fixed-container {
+  width: 1170px;
+  margin: auto;
+}
+
+.title-mod {
+  margin: 0 0 50px;
+  font-size: 60px;
+  width: 700;
+  line-height: 68.99px;
+  color: #3f2aff;
+}
+
+.logo-mod {
+  margin: 50px 0 25px;
+  color: #3f2aff;
+}
+
+.link-mod {
+  margin-bottom: 25px;
+  font-size: 20px;
+  width: 400;
+  line-height: 23px;
+  color: #3f2aff;
+}
+
+.link-back {
+  padding: 0 0 4px;
+  color: #3f2aff;
+}
+
+.content {
+  width: 1170px;
+  margin: 0 auto;
+  padding-left: 0;
+  font-size: 0;
+}
+
+.card {
+  display: inline-block;
+  width: 572px;
+  height: 505px;
+  margin-bottom: 25px;
+  padding: 205px 25px 25px;
+  position: relative;
+  font-size: 16px;
+  box-shadow: 0 0 40px rgba(0, 0, 0, 0.1);
+
+}
+
+.card:not(:nth-child(2n)) {
+  margin-right: 25px;
+}
+
+.picture2 {
+  background-image: url("../img/8.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  block-size: contain;
+}
+
+.picture3 {
+  background-image: url("../img/9.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  block-size: contain;
+}
+
+
+.picture4 {
+  background-image: url("../img/10.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  block-size: contain;
+}
+
+.picture5 {
+  background-image: url("../img/11.png");
+  background-repeat: no-repeat;
+  background-position: left top;
+  block-size: contain;
+}
+
+.card-subject {
+  margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  line-height: 46px;
+  color: #3f2aff;
+}
+
+.card-text {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 165%;
+  color: #333;
+}
+
+.card-plug {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 165%;
+  color: #fff;
+}
+
+.card-num {
+  position: absolute;
+  margin: 0;
+  width: 45px ;
+  height: 46px;
+  bottom: 25px;
+  right: 25px;
+  font-size: 40px;
+  font-weight: 400;
+  line-height: 46px;
+
+  color: #eaeaea;
+  z-index: 10;
+}
+
+.link-button {
+  margin: 50px auto;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
